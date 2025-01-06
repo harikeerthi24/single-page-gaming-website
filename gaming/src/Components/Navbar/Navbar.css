@@ -1,0 +1,209 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 55px;
+    background-color: transparent;
+    /* filter: blur(250px); */
+    backdrop-filter: blur(10px);
+    border: 1px solid #8a4af3b8;
+    padding: 5px 10px;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 10;
+}
+
+.navbar-logo{
+    height: 45px;
+    width: auto;
+}
+
+.navbar-logo>img{
+    width:60%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* navbar list items */
+.navbar-listitems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.activenav{
+    text-transform: capitalize;
+    color: #006B61;
+    border: 2px solid #006B61;
+    border-top: none;
+    border-bottom: none;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.navbar-listitems li{
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+.navbar-listitems li:hover{
+    color: #c7a3ffb8;
+}
+
+
+/* navbar contact us page */
+.navbar-contactus p{
+    padding: 7px 10px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    font-size: 0.95rem;
+}
+
+.navbar-contactus .active p{
+    background-color: #DEF2FD;
+    color: #797979;
+}
+
+/* navbar-menuicon */
+.navbar-menuicon{
+    display: none;
+}
+
+.navbar-sidebar{
+    display: none;
+}
+
+@media screen and (max-width:800.098px){
+    .navbar-container{
+        top: 0px;
+        left: 0px;
+        transform: translateX(0px);
+        border-radius: 0px;
+        height: 45px;
+        position: sticky;
+        background-color: rgb(31 30 51);
+        /* border: 0px solid white; */
+    }
+
+    .navbar-logo{
+        height: 40px;
+    }
+    .navbar-listitems{
+        display: none;
+    }
+    .navbar-contactus{
+        display: none;
+    }
+    .navbar-menuicon{
+        display:contents;
+    }
+
+    /* sidebar container
+    .navbar-sidebar-container{
+        min-width:280px;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.123);
+        position: absolute;
+        z-index: 2;
+        transition: all 1s ease;
+    } */
+
+    /* .sidebarcontainer-inactive{
+        min-width: 0px;
+        width: 0px;
+        max-width: 0px;
+        height: 0px;
+        background-color: none;
+        z-index: -10;
+        left: -300px;
+    } */
+    .navbar-sidebar{
+        display: flex;
+       background-color:rgb(31 30 51);
+       min-width: 265px;
+       min-height: 100vh;
+       /* height: 100%; */
+       /* height: 100%; */
+       position: fixed;
+       left:0;
+       top: 0;
+       
+       z-index: 1;
+       transition: all 0.5s ease;
+       overflow: scroll;
+       /* flex-direction: column;
+       align-items: center;
+       justify-content: center; */
+    }
+
+    .sidebar-unorderlist{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-top: 50px;
+        width: 100%;
+        gap: 15px;
+        /* z-index: -2; */
+        padding-bottom: 200px;
+
+    }
+
+    .sidebar-unorderlist .active>li{
+        text-transform: capitalize;
+        color: #0474ba;
+        border: 2px solid #5ec7ff;
+        border-top: none;
+        border-bottom: none;
+        padding: 3px 10px;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 0.85rem;
+        width:fit-content;
+        margin: auto;
+    }
+
+    .sidebar-unorderlist li{
+        text-transform: capitalize;
+        color: #ffffff;
+        padding: 3px 10px;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 0.95rem;
+        white-space: nowrap;
+    }
+
+    .sidebar-inactive{
+        left: -300px;
+    }
+
+    
+}
