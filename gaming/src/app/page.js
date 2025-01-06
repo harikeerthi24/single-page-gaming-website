@@ -47,6 +47,7 @@ import sec8logo7 from "../Assets/sec8/7.png";
 import sec8logo8 from "../Assets/sec8/8.png";
 
 
+
 function Home() {
   return (
     <>
@@ -102,6 +103,53 @@ function Home() {
 
           </div>
 
+
+
+        </div>
+
+        <div className="home-sec3">
+
+          <div className="home-sec3-inner">
+            <div className="home-sec3-heading">
+              <h1>Power Up Your Web3 Game Development, With <span>LYNC SDKs</span></h1>
+              <p>LYNC SDKs can be easily integrated into game engines like Unity 3D and Unreal Engine in a few clicks.</p>
+            </div>
+
+            <div className="containerbody">
+              <div className="container">
+                <h1>Don&apos;t Worry about the <span className="chighlight">Web3</span> Complexities</h1>
+                <ul>
+                  <li><span className="icon"><Image src={star} alt="star" /></span>&ensp; Save 9-12 months of development time</li>
+                  <li><span className="icon"><Image src={star} alt="star" /></span>&ensp;Focus completely on Game Dev and Mechanics</li>
+                  <li><span className="icon"><Image src={star} alt="star" /></span>&ensp;Save Up to $500K+ on Salaries & Smart Contract Auditing</li>
+                  <li><span className="icon"><Image src={star} alt="star" /></span>&ensp;Go Cross-Chain in a few clicks</li>
+                </ul>
+                <Image src={dimond} alt="Ethereum Icon" className="icon-eth" />
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <div className="home-sec4">
+          <div className="home-sec4-inner">
+            <h1>Product <span>Suite</span></h1>
+            <div className="home-sec3-cards">
+              <div className="home-sec3-card-item">
+                <Image src={sec4pic} alt="sec4pic" />
+                <h2>LYNC Wallet SDK</h2>
+                <p>Empowering developers to integrate
+                  account abstraction in their game,
+                  dapp, metaverse and more in
+                  minutes.</p>
+
+              </div>
+
+            </div>
+
+          </div>
 
         </div>
 
