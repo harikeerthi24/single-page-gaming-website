@@ -452,12 +452,8 @@
 
   /* ------------------------------section three-------------------------- */
 
-<<<<<<< HEAD
   .home-sec4 {
     background: radial-gradient(circle, rgba(111, 0, 221, 0.37) 0%, rgba(0,0,0,1) 50%);
-=======
-  .home-sec2 {
->>>>>>> 2da7aa33c739c28797f7dd72f37562677ebfdae2
     width: 100%;
     display: flex;
     justify-content: center;
@@ -466,7 +462,6 @@
     flex-direction: column;
 }
 
-<<<<<<< HEAD
 .home-sec4-inner{
     max-width: 1400px;
     justify-content: center;
@@ -478,10 +473,6 @@
     gap: 70px;
     align-items: center;
     justify-content: space-evenly;
-=======
-.home-sec2-inner{
-    max-width: 1400px;
->>>>>>> 2da7aa33c739c28797f7dd72f37562677ebfdae2
 }
 
 .home-sec4-inner>h1>span{
@@ -492,7 +483,6 @@
 }
 
 .home-sec3-card-item{
-<<<<<<< HEAD
 background: linear-gradient(180deg, rgba(2,6,23,0) 0%, rgba(2,6,23,1) 100%);
     padding: 20px;
     max-width: 300px;
@@ -890,7 +880,4 @@ background: linear-gradient(180deg, rgba(2,6,23,0) 0%, rgba(2,6,23,1) 100%);
     .home-sec8-logo-item>img{
         width: 100%;
     }
-=======
-    background: linear-gradient(180deg, rgba(2,6,23,0.22470238095238093) 0%, rgba(2,6,23,1) 100%);
->>>>>>> 2da7aa33c739c28797f7dd72f37562677ebfdae2
 }
